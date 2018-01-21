@@ -34,8 +34,10 @@ so all your configurations should go there.
 
 Get the git location from resin.io UI and set it to your repo:
 
-`git remote add resin yourresiniousername@git.resin.io:somepath.git`
-`git push resin master`
+```
+git remote add resin yourresiniousername@git.resin.io:somepath.git
+git push resin master
+```
 
 ## License
 
