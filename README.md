@@ -39,6 +39,11 @@ git remote add resin yourresiniousername@git.resin.io:somepath.git
 git push resin master
 ```
 
+If the push complains that your remote has changes which are not in your local repo
+just use the Force:
+
+`git push -f resin master`
+
 ## License
 
 This repo is dual licensed with GPLv3 (`LICENSE-GPL3`) and MIT (`LICENSE-MIT`).
